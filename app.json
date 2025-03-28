@@ -15,7 +15,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "plugins": [
+        "expo-sensors"
+      ]
     },
     "web": {
       "bundler": "metro",
@@ -23,6 +26,7 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
+      "expo-sensors",
       "expo-router",
       [
         "expo-splash-screen",
