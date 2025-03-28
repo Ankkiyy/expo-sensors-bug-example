@@ -15,10 +15,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "plugins": [
-        "expo-sensors"
-      ]
+      }
     },
     "web": {
       "bundler": "metro",
